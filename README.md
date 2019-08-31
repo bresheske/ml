@@ -19,4 +19,6 @@ To train a model using the mutation algorithm: `node src/mutation`
 
 To train a model using the wild mutation algorithm: `node src/wildMutation`
 
-Note: I was able to find about a 4% error using the `mutation` algorithm, and then after feeding that into the `wildMutation` algorithm, I was able to refine it to around 2.2% error.
+**Note:** I was able to find about a 4% error using the `mutation` algorithm, and then after feeding that into the `wildMutation` algorithm, I was able to refine it to around 2.2% error.
+
+**More Notes:** The 'mutation' and 'wildMutation' algorithms are functions I totally made up. Nothing special to see there. Feel free to tear them apart.
