@@ -4,8 +4,6 @@ a very small machine learning expirement
 Based on this discussion: 
 https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471
 
-This does not use a neural network, but simply uses a model of weights and a way to mutate the current model.
-
 ## Method
 Using zillow, I dug up some data from some properties around my own home. I used numBeds, numBaths, Sqft, and Actual price (or zillow estimated price).  Using some model mutators, I was able to create 4 weights (including a random salt) to build a model with around 2.2% error, which is pretty good.
 
